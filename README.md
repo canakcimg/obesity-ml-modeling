@@ -35,36 +35,40 @@ data/ ├── train.csv ├── test.csv
 - Gerekli kütüphaneleri yüklemek için:
 ```bash
 pip install -r requirements.txt
-Çalıştırma Adımları
+```
+
+### Çalıştırma Adımları
 1.	Veri setini indirip data/ klasörüne yerleştirin.
 2.	Notebook dosyalarını sırayla çalıştırın: 
-o	01_eda.ipynb: Veri keşfi ve görselleştirme.
-o	02_modeling.ipynb: Makine öğrenimi modelleme.
-o	03_evaluation.ipynb: Model sonuçlarını değerlendirme ve görselleştirme.
+
+  - 01_eda.ipynb: Veri keşfi ve görselleştirme.
+  - 02_modeling.ipynb: Makine öğrenimi modelleme.
+  - 03_evaluation.ipynb: Model sonuçlarını değerlendirme ve görselleştirme.
 ________________________________________
-🧰 Kullanılan Teknolojiler
+### 🧰 Kullanılan Teknolojiler
 •	Veri Analizi ve Görselleştirme: 
+
 o	Pandas, NumPy
+
 o	Matplotlib, Seaborn
+
 •	Makine Öğrenimi: 
+
 o	Scikit-learn
+
 o	XGBoost, LightGBM, CatBoost
+
 •	Değerlendirme Metrikleri: 
-o	RMSE, MAE, R2 Score
+
+o	Accuracy, Presicion, Recall, F1 Score
 ________________________________________
-📈 Model Performansı
-Model sonuçlarını karşılaştırmak için aşağıdaki metrikler kullanılmıştır:
-Model	RMSE	MAE	R2 Score
-LinearRegression	0.512	0.385	0.782
-LightGBM	0.398	0.312	0.856
-XGBoost	0.405	0.319	0.850
-________________________________________
-🏆 Kaggle Yarışması Bağlantısı
+
+### 🏆 Kaggle Yarışması Bağlantısı
 Yarışma ve veri seti hakkında daha fazla bilgi almak için Kaggle Playground Series S4E2 sayfasını ziyaret edebilirsiniz.
 ________________________________________
-📜 Lisans
+### 📜 Lisans
 Bu proje MIT Lisansı altında lisanslanmıştır.
 ________________________________________
-📧 İletişim
+### 📧 İletişim
 Proje hakkında soru veya önerileriniz için benimle iletişime geçebilirsiniz:
 •	E-posta: your_email@example.com
