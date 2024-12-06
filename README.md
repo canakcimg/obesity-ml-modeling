@@ -1,2 +1,70 @@
-# obesity-ml-modeling
-Kaggle Playground Series S4E2 yarışması için makine öğrenimi modelleme ve analiz projeleri.
+# Obesity - ML Modeling
+
+[![Kaggle Competition](https://img.shields.io/badge/Kaggle-Playground%20Series%20S4E2-blue)](https://www.kaggle.com/competitions/playground-series-s4e2/)
+
+Bu repository, **Kaggle Playground Series S4E2** yarışması kapsamında veri analizi, makine öğrenimi modelleme ve tahminleme çalışmalarını içermektedir. Hedefimiz, sağlanan veri seti üzerinde en iyi tahminleme performansını elde etmektir.
+
+## 🎯 Proje Hedefleri
+
+- Veri setini analiz ederek hedef değişkeni tahmin etmek için **makine öğrenimi modelleri** geliştirmek.
+- **Keşifsel Veri Analizi (EDA)** ile verinin özelliklerini anlamak.
+- Farklı modelleri denemek ve **hiperparametre optimizasyonu** ile performanslarını artırmak.
+- Sonuçları görselleştirerek etkili bir rapor hazırlamak.
+
+
+## 📂 Proje Yapısı
+
+Playground-Series-S4E2-ML-Modeling/ │ ├── data/ │ ├── train.csv # Eğitim veri seti (Kullanıcı tarafından indirilmeli) │ ├── test.csv # Test veri seti (Kullanıcı tarafından indirilmeli) │ ├── notebooks/ │ ├── 01_eda.ipynb # Veri keşfi ve analizler │ ├── 02_modeling.ipynb # Modelleme çalışmaları │ ├── 03_evaluation.ipynb # Model değerlendirme │ ├── src/ │ ├── preprocessing.py # Veri ön işleme fonksiyonları │ ├── models.py # Modellerin tanımlandığı script │ ├── utils.py # Yardımcı araçlar │ ├── README.md # Proje dokümantasyonu └── requirements.txt # Gerekli Python kütüphaneleri
+
+## 📊 Veri Seti
+
+Bu proje için kullanılan veri setine **Kaggle Playground Series S4E2** yarışma sayfasından ulaşabilirsiniz:
+
+- [Veri Seti ve Detaylar](https://www.kaggle.com/competitions/playground-series-s4e2/data)
+
+**Kullanım:**
+1. Yukarıdaki bağlantıdan veri setini indirin.
+2. İndirdiğiniz dosyaları `data/` klasörüne yerleştirin:
+data/ ├── train.csv ├── test.csv
+
+
+## 🚀 Nasıl Çalıştırılır?
+
+### Gerekli Kurulumlar
+- Python 3.8 veya üzeri
+- Gerekli kütüphaneleri yüklemek için:
+```bash
+pip install -r requirements.txt
+Çalıştırma Adımları
+1.	Veri setini indirip data/ klasörüne yerleştirin.
+2.	Notebook dosyalarını sırayla çalıştırın: 
+o	01_eda.ipynb: Veri keşfi ve görselleştirme.
+o	02_modeling.ipynb: Makine öğrenimi modelleme.
+o	03_evaluation.ipynb: Model sonuçlarını değerlendirme ve görselleştirme.
+________________________________________
+🧰 Kullanılan Teknolojiler
+•	Veri Analizi ve Görselleştirme: 
+o	Pandas, NumPy
+o	Matplotlib, Seaborn
+•	Makine Öğrenimi: 
+o	Scikit-learn
+o	XGBoost, LightGBM, CatBoost
+•	Değerlendirme Metrikleri: 
+o	RMSE, MAE, R2 Score
+________________________________________
+📈 Model Performansı
+Model sonuçlarını karşılaştırmak için aşağıdaki metrikler kullanılmıştır:
+Model	RMSE	MAE	R2 Score
+LinearRegression	0.512	0.385	0.782
+LightGBM	0.398	0.312	0.856
+XGBoost	0.405	0.319	0.850
+________________________________________
+🏆 Kaggle Yarışması Bağlantısı
+Yarışma ve veri seti hakkında daha fazla bilgi almak için Kaggle Playground Series S4E2 sayfasını ziyaret edebilirsiniz.
+________________________________________
+📜 Lisans
+Bu proje MIT Lisansı altında lisanslanmıştır.
+________________________________________
+📧 İletişim
+Proje hakkında soru veya önerileriniz için benimle iletişime geçebilirsiniz:
+•	E-posta: your_email@example.com
