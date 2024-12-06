@@ -71,4 +71,4 @@ Bu proje MIT Lisansı altında lisanslanmıştır.
 ________________________________________
 ### 📧 İletişim
 Proje hakkında soru veya önerileriniz için benimle iletişime geçebilirsiniz:
-•	E-posta: your_email@example.com
+•	E-posta: canakci.m.g@gmail.com
