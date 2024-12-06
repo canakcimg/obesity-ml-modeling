@@ -12,9 +12,6 @@ Bu repository, **Kaggle Playground Series S4E2** yarışması kapsamında veri a
 - Sonuçları görselleştirerek etkili bir rapor hazırlamak.
 
 
-## 📂 Proje Yapısı
-
-Playground-Series-S4E2-ML-Modeling/ │ ├── data/ │ ├── train.csv # Eğitim veri seti (Kullanıcı tarafından indirilmeli) │ ├── test.csv # Test veri seti (Kullanıcı tarafından indirilmeli) │ ├── notebooks/ │ ├── 01_eda.ipynb # Veri keşfi ve analizler │ ├── 02_modeling.ipynb # Modelleme çalışmaları │ ├── 03_evaluation.ipynb # Model değerlendirme │ ├── src/ │ ├── preprocessing.py # Veri ön işleme fonksiyonları │ ├── models.py # Modellerin tanımlandığı script │ ├── utils.py # Yardımcı araçlar │ ├── README.md # Proje dokümantasyonu └── requirements.txt # Gerekli Python kütüphaneleri
 
 ## 📊 Veri Seti
 
