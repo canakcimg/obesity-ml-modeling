@@ -1,6 +1,6 @@
 # Obesity - ML Modeling
 
-[![Kaggle Competition](https://img.shields.io/badge/Kaggle-Playground%20Series%20S4E2-blue)](https://www.kaggle.com/competitions/playground-series-s4e2/)
+[![Kaggle Competition](https://img.shields.io/badge/Kaggle-Playground%20Series%20S4E2-blue)](https://www.kaggle.com/competitions/playground-series-s4e2/)asdasdasdasdasdasd
 
 Bu repository, **Kaggle Playground Series S4E2** yarışması kapsamında veri analizi, makine öğrenimi modelleme ve tahminleme çalışmalarını içermektedir. Hedefimiz, sağlanan veri seti üzerinde en iyi tahminleme performansını elde etmektir.
 
